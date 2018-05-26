@@ -2,9 +2,13 @@ What happens when you initialize a repository? Why do you need to do it?
 
   there'll be a file .git to be created, I think the reason is initialize the environment and firgure out the last commits if there is.
 
+add words to test git diff
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+  staging area can store current changes and you can decide wether or not to make commit, it will be in repository when you make commit, and there will be an update version in the working directory.
+  It will not cause too many versions in repository as you can decide when to make commit, but also only change the files in working derectory after you stored it.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
