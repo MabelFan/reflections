@@ -7,11 +7,13 @@ add words to test git diff
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-  staging area can store current changes and you can decide wether or not to make commit, it will be in repository when you make commit, and there will be an update version in the working directory.
+  staging area can store current changes and you can decide wether or not to make commit, it will be in repository when you commit, and there will be an update version in the working directory.
   It will not cause too many versions in repository as you can decide when to make commit, but also only change the files in working derectory after you stored it.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+   
+  when you made some changes, you can use git diff --staged to check if it is a logical change, yes then commit once.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
